@@ -1,4 +1,4 @@
-package com.lti.Airline_Reservation_Backend_Project;
+package com.lti.AirlineBackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

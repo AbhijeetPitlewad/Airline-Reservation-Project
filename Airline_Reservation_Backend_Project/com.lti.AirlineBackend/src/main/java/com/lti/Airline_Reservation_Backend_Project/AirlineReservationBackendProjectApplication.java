@@ -1,4 +1,4 @@
-package com.lti.Airline_Reservation_Backend_Project;
+package com.lti.AirlineBackend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
