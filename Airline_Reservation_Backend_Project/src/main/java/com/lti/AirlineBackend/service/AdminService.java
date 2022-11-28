@@ -1,6 +1,6 @@
-package com.lti.Airline_Reservation_Backend_Project.service;
+package com.lti.AirlineBackend.service;
 
-import com.lti.Airline_Reservation_Backend_Project.entity.Admin;
+import com.lti.AirlineBackend.entity.Admin;
 
 public interface AdminService {
 

@@ -1,4 +1,4 @@
-package com.lti.Airline_Reservation_Backend_Project.dao;
+package com.lti.AirlineBackend.dao;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -6,7 +6,7 @@ import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Repository;
 
-import com.lti.Airline_Reservation_Backend_Project.entity.Admin;
+import com.lti.AirlineBackend.entity.Admin;
 
 @Repository
 public class AdminDaoImpl implements AdminDao{

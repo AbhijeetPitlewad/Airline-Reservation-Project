@@ -1,4 +1,4 @@
-package com.lti.Airline_Reservation_Backend_Project.entity;
+package com.lti.AirlineBackend.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

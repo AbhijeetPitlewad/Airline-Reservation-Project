@@ -1,10 +1,10 @@
-package com.lti.Airline_Reservation_Backend_Project.service;
+package com.lti.AirlineBackend.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.lti.Airline_Reservation_Backend_Project.dao.AdminDao;
-import com.lti.Airline_Reservation_Backend_Project.entity.Admin;
+import com.lti.AirlineBackend.dao.AdminDao;
+import com.lti.AirlineBackend.entity.Admin;
 
 @Service("adminService")
 public class AdminServiceImpl implements AdminService {

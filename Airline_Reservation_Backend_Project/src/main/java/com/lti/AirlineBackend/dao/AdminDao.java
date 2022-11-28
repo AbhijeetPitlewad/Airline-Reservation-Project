@@ -1,6 +1,6 @@
-package com.lti.Airline_Reservation_Backend_Project.dao;
+package com.lti.AirlineBackend.dao;
 
-import com.lti.Airline_Reservation_Backend_Project.entity.Admin;
+import com.lti.AirlineBackend.entity.Admin;
 
 
 public interface AdminDao {

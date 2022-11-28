@@ -1,4 +1,4 @@
-package com.lti.Airline_Reservation_Backend_Project.controller;
+package com.lti.AirlineBackend.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.lti.Airline_Reservation_Backend_Project.entity.Admin;
-import com.lti.Airline_Reservation_Backend_Project.service.AdminService;
+import com.lti.AirlineBackend.entity.Admin;
+import com.lti.AirlineBackend.service.AdminService;
 
 @CrossOrigin("*")
 @RestController

@@ -1,4 +1,4 @@
-package com.lti.Airline_Reservation_Backend_Project;
+package com.lti.AirlineBackend;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
