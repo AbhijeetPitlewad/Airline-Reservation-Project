@@ -15,32 +15,24 @@ public class Flight {
 	private String flightName;
 	private String flightFrom;
     private String flightTo;
-	private LocalDate flightArrival;
-	private LocalDate flightDeparture;
+	private String flightArrival;
+	private String flightDeparture;
 	private int flighDuration;
-	private int NumberOfEs; //Economy Seats
-	private int NumberOfBs; //Bussiness Seats
-	private int EsPrice; //economy seats
-	private int BsPrice; //Bussiness Seats
+	private int numberOfEs; //Economy Seats
+	private int numberOfBs; //Bussiness Seats
+	private int esPrice; //economy seats
+	private int bsPrice; //Bussiness Seats
 	
 	public Flight() {
 		super();
 	}
 
-	public Flight(int flightNumber, String flightName, String flightFrom, String flightTo, LocalDate flightArrival,
-			LocalDate flightDeparture, int flighDuration, int numberOfEs, int numberOfBs, int esPrice, int bsPrice) {
-		super();
-		this.flightNumber = flightNumber;
-		this.flightName = flightName;
-		this.flightFrom = flightFrom;
-		this.flightTo = flightTo;
-		this.flightArrival = flightArrival;
-		this.flightDeparture = flightDeparture;
-		this.flighDuration = flighDuration;
-		NumberOfEs = numberOfEs;
-		NumberOfBs = numberOfBs;
-		EsPrice = esPrice;
-		BsPrice = bsPrice;
+	@Override
+	public String toString() {
+		return "Flight [flightNumber=" + flightNumber + ", flightName=" + flightName + ", flightFrom=" + flightFrom
+				+ ", flightTo=" + flightTo + ", flightArrival=" + flightArrival + ", flightDeparture=" + flightDeparture
+				+ ", flighDuration=" + flighDuration + ", numberOfEs=" + numberOfEs + ", numberOfBs=" + numberOfBs
+				+ ", esPrice=" + esPrice + ", bsPrice=" + bsPrice + "]";
 	}
 
 	public int getFlightNumber() {
@@ -75,19 +67,19 @@ public class Flight {
 		this.flightTo = flightTo;
 	}
 
-	public LocalDate getFlightArrival() {
+	public String getFlightArrival() {
 		return flightArrival;
 	}
 
-	public void setFlightArrival(LocalDate flightArrival) {
+	public void setFlightArrival(String flightArrival) {
 		this.flightArrival = flightArrival;
 	}
 
-	public LocalDate getFlightDeparture() {
+	public String getFlightDeparture() {
 		return flightDeparture;
 	}
 
-	public void setFlightDeparture(LocalDate flightDeparture) {
+	public void setFlightDeparture(String flightDeparture) {
 		this.flightDeparture = flightDeparture;
 	}
 
@@ -100,47 +92,53 @@ public class Flight {
 	}
 
 	public int getNumberOfEs() {
-		return NumberOfEs;
+		return numberOfEs;
 	}
 
 	public void setNumberOfEs(int numberOfEs) {
-		NumberOfEs = numberOfEs;
+		this.numberOfEs = numberOfEs;
 	}
 
 	public int getNumberOfBs() {
-		return NumberOfBs;
+		return numberOfBs;
 	}
 
 	public void setNumberOfBs(int numberOfBs) {
-		NumberOfBs = numberOfBs;
+		this.numberOfBs = numberOfBs;
 	}
 
 	public int getEsPrice() {
-		return EsPrice;
+		return esPrice;
 	}
 
 	public void setEsPrice(int esPrice) {
-		EsPrice = esPrice;
+		this.esPrice = esPrice;
 	}
 
 	public int getBsPrice() {
-		return BsPrice;
+		return bsPrice;
 	}
 
 	public void setBsPrice(int bsPrice) {
-		BsPrice = bsPrice;
+		this.bsPrice = bsPrice;
 	}
 
-	@Override
-	public String toString() {
-		return "Flight [flightNumber=" + flightNumber + ", flightName=" + flightName + ", flightFrom=" + flightFrom
-				+ ", flightTo=" + flightTo + ", flightArrival=" + flightArrival + ", flightDeparture=" + flightDeparture
-				+ ", flighDuration=" + flighDuration + ", NumberOfEs=" + NumberOfEs + ", NumberOfBs=" + NumberOfBs
-				+ ", EsPrice=" + EsPrice + ", BsPrice=" + BsPrice + "]";
+	public Flight(int flightNumber, String flightName, String flightFrom, String flightTo, String flightArrival,
+			String flightDeparture, int flighDuration, int numberOfEs, int numberOfBs, int esPrice, int bsPrice) {
+		super();
+		this.flightNumber = flightNumber;
+		this.flightName = flightName;
+		this.flightFrom = flightFrom;
+		this.flightTo = flightTo;
+		this.flightArrival = flightArrival;
+		this.flightDeparture = flightDeparture;
+		this.flighDuration = flighDuration;
+		this.numberOfEs = numberOfEs;
+		this.numberOfBs = numberOfBs;
+		this.esPrice = esPrice;
+		this.bsPrice = bsPrice;
 	}
-	
-	
-	
+
 	
 	
 
